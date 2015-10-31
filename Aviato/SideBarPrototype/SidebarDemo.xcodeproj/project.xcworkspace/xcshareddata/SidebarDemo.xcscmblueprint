@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3C9B1898BEC0289924A41480AC2D60905EC1247E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3C9B1898BEC0289924A41480AC2D60905EC1247E" : 0,
+    "B9F1E12AF51A9CD73C1E77AB081FBFC3C16C0E50" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B2A941B7-46E1-48B1-B34E-528325E40AF1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3C9B1898BEC0289924A41480AC2D60905EC1247E" : "Programming\/",
+    "B9F1E12AF51A9CD73C1E77AB081FBFC3C16C0E50" : "Aviato-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SidebarDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "C\/SidebarDemoTemplate\/SidebarDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crouse0\/Programming.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C9B1898BEC0289924A41480AC2D60905EC1247E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michael-mckenna\/Aviato-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9F1E12AF51A9CD73C1E77AB081FBFC3C16C0E50"
+    }
+  ]
+}
