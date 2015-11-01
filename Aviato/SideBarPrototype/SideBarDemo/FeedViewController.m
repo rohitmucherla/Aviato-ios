@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  FeedViewController.m
 //  SidebarDemo
 
 #import "FeedViewController.h"

@@ -1,5 +1,5 @@
 //
-//  PhotoViewController.h
+//  LikedViewController.h
 //  SidebarDemo
 
 #import <UIKit/UIKit.h>

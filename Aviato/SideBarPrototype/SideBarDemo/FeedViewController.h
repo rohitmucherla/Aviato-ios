@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FeedViewController.h
 //  SidebarDemo
 
 #import <UIKit/UIKit.h>

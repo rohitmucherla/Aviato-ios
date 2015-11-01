@@ -1,5 +1,5 @@
 //
-//  MapViewController.h
+//  GroupViewController.h
 //  SidebarDemo
 
 #import <UIKit/UIKit.h>

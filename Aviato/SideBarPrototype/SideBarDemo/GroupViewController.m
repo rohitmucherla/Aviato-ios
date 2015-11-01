@@ -1,5 +1,5 @@
 //
-//  MapViewController.m
+//  GroupViewController.m
 //  SidebarDemo
 
 #import "GroupViewController.h"

@@ -1,5 +1,6 @@
 //
-//  PhotoViewController.m
+//  LikedViewController.m
+//  Sidebar Demo
 
 #import "LikedViewController.h"
 #import "SWRevealViewController.h"
