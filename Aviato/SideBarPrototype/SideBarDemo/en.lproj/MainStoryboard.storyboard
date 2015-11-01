@@ -382,7 +382,7 @@
     <resources>
         <image name="feed.png" width="48" height="48"/>
         <image name="friends.png" width="48" height="48"/>
-        <image name="groups.png" width="48" height="48"/>
+        <image name="groups.png" width="128" height="128"/>
         <image name="liked.png" width="48" height="48"/>
         <image name="menu.png" width="22" height="22"/>
         <image name="settings.png" width="48" height="48"/>

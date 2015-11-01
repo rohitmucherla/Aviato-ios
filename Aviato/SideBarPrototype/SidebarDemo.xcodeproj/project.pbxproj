@@ -176,13 +176,13 @@
 			children = (
 				CB97BE8A1BE53DB90045DC9F /* Default-568h@2x.png */,
 				CB97BE7E1BE529DD0045DC9F /* feed.png */,
-				CBF5B8431BE5562F000E27CF /* menu.png */,
-				CBF5B8441BE5562F000E27CF /* menu@2x.png */,
-				CBF5B8451BE5562F000E27CF /* menu@3x.png */,
 				CB97BE7F1BE529DD0045DC9F /* friends.png */,
 				CB97BE801BE529DD0045DC9F /* groups.png */,
 				CB97BE811BE529DD0045DC9F /* liked.png */,
 				CB97BE821BE529DD0045DC9F /* settings.png */,
+				CBF5B8431BE5562F000E27CF /* menu.png */,
+				CBF5B8441BE5562F000E27CF /* menu@2x.png */,
+				CBF5B8451BE5562F000E27CF /* menu@3x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
