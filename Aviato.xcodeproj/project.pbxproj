@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5124036A1BE6D09700BBD271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512403691BE6D09700BBD271 /* main.m */; };
+		5124036D1BE6D09700BBD271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124036C1BE6D09700BBD271 /* AppDelegate.m */; };
+		512403701BE6D09700BBD271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124036F1BE6D09700BBD271 /* ViewController.m */; };
+		512403731BE6D09700BBD271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512403711BE6D09700BBD271 /* Main.storyboard */; };
+		512403761BE6D09700BBD271 /* Aviato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 512403741BE6D09700BBD271 /* Aviato.xcdatamodeld */; };
+		512403781BE6D09700BBD271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512403771BE6D09700BBD271 /* Assets.xcassets */; };
+		5124037B1BE6D09700BBD271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512403791BE6D09700BBD271 /* LaunchScreen.storyboard */; };
+		512403861BE6D09700BBD271 /* AviatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512403851BE6D09700BBD271 /* AviatoTests.m */; };
+		512403911BE6D09700BBD271 /* AviatoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512403901BE6D09700BBD271 /* AviatoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512403821BE6D09700BBD271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5124035D1BE6D09600BBD271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512403641BE6D09600BBD271;
+			remoteInfo = Aviato;
+		};
+		5124038D1BE6D09700BBD271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5124035D1BE6D09600BBD271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512403641BE6D09600BBD271;
+			remoteInfo = Aviato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		512403651BE6D09700BBD271 /* Aviato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512403691BE6D09700BBD271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5124036B1BE6D09700BBD271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5124036C1BE6D09700BBD271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5124036E1BE6D09700BBD271 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5124036F1BE6D09700BBD271 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		512403721BE6D09700BBD271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512403751BE6D09700BBD271 /* Aviato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aviato.xcdatamodel; sourceTree = "<group>"; };
+		512403771BE6D09700BBD271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5124037A1BE6D09700BBD271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5124037C1BE6D09700BBD271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512403811BE6D09700BBD271 /* AviatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512403851BE6D09700BBD271 /* AviatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatoTests.m; sourceTree = "<group>"; };
+		512403871BE6D09700BBD271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5124038C1BE6D09700BBD271 /* AviatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512403901BE6D09700BBD271 /* AviatoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatoUITests.m; sourceTree = "<group>"; };
+		512403921BE6D09700BBD271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512403621BE6D09600BBD271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124037E1BE6D09700BBD271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512403891BE6D09700BBD271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5124035C1BE6D09600BBD271 = {
+			isa = PBXGroup;
+			children = (
+				512403671BE6D09700BBD271 /* Aviato */,
+				512403841BE6D09700BBD271 /* AviatoTests */,
+				5124038F1BE6D09700BBD271 /* AviatoUITests */,
+				512403661BE6D09700BBD271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512403661BE6D09700BBD271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512403651BE6D09700BBD271 /* Aviato.app */,
+				512403811BE6D09700BBD271 /* AviatoTests.xctest */,
+				5124038C1BE6D09700BBD271 /* AviatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512403671BE6D09700BBD271 /* Aviato */ = {
+			isa = PBXGroup;
+			children = (
+				5124036B1BE6D09700BBD271 /* AppDelegate.h */,
+				5124036C1BE6D09700BBD271 /* AppDelegate.m */,
+				5124036E1BE6D09700BBD271 /* ViewController.h */,
+				5124036F1BE6D09700BBD271 /* ViewController.m */,
+				512403711BE6D09700BBD271 /* Main.storyboard */,
+				512403771BE6D09700BBD271 /* Assets.xcassets */,
+				512403791BE6D09700BBD271 /* LaunchScreen.storyboard */,
+				5124037C1BE6D09700BBD271 /* Info.plist */,
+				512403741BE6D09700BBD271 /* Aviato.xcdatamodeld */,
+				512403681BE6D09700BBD271 /* Supporting Files */,
+			);
+			path = Aviato;
+			sourceTree = "<group>";
+		};
+		512403681BE6D09700BBD271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512403691BE6D09700BBD271 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512403841BE6D09700BBD271 /* AviatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				512403851BE6D09700BBD271 /* AviatoTests.m */,
+				512403871BE6D09700BBD271 /* Info.plist */,
+			);
+			path = AviatoTests;
+			sourceTree = "<group>";
+		};
+		5124038F1BE6D09700BBD271 /* AviatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				512403901BE6D09700BBD271 /* AviatoUITests.m */,
+				512403921BE6D09700BBD271 /* Info.plist */,
+			);
+			path = AviatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512403641BE6D09600BBD271 /* Aviato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512403951BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "Aviato" */;
+			buildPhases = (
+				512403611BE6D09600BBD271 /* Sources */,
+				512403621BE6D09600BBD271 /* Frameworks */,
+				512403631BE6D09600BBD271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aviato;
+			productName = Aviato;
+			productReference = 512403651BE6D09700BBD271 /* Aviato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512403801BE6D09700BBD271 /* AviatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512403981BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "AviatoTests" */;
+			buildPhases = (
+				5124037D1BE6D09700BBD271 /* Sources */,
+				5124037E1BE6D09700BBD271 /* Frameworks */,
+				5124037F1BE6D09700BBD271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512403831BE6D09700BBD271 /* PBXTargetDependency */,
+			);
+			name = AviatoTests;
+			productName = AviatoTests;
+			productReference = 512403811BE6D09700BBD271 /* AviatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5124038B1BE6D09700BBD271 /* AviatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5124039B1BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "AviatoUITests" */;
+			buildPhases = (
+				512403881BE6D09700BBD271 /* Sources */,
+				512403891BE6D09700BBD271 /* Frameworks */,
+				5124038A1BE6D09700BBD271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5124038E1BE6D09700BBD271 /* PBXTargetDependency */,
+			);
+			name = AviatoUITests;
+			productName = AviatoUITests;
+			productReference = 5124038C1BE6D09700BBD271 /* AviatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5124035D1BE6D09600BBD271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "William O'Rosky";
+				TargetAttributes = {
+					512403641BE6D09600BBD271 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = MELQVM2RM2;
+					};
+					512403801BE6D09700BBD271 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = MELQVM2RM2;
+						TestTargetID = 512403641BE6D09600BBD271;
+					};
+					5124038B1BE6D09700BBD271 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = MELQVM2RM2;
+						TestTargetID = 512403641BE6D09600BBD271;
+					};
+				};
+			};
+			buildConfigurationList = 512403601BE6D09600BBD271 /* Build configuration list for PBXProject "Aviato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5124035C1BE6D09600BBD271;
+			productRefGroup = 512403661BE6D09700BBD271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512403641BE6D09600BBD271 /* Aviato */,
+				512403801BE6D09700BBD271 /* AviatoTests */,
+				5124038B1BE6D09700BBD271 /* AviatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512403631BE6D09600BBD271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124037B1BE6D09700BBD271 /* LaunchScreen.storyboard in Resources */,
+				512403781BE6D09700BBD271 /* Assets.xcassets in Resources */,
+				512403731BE6D09700BBD271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124037F1BE6D09700BBD271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124038A1BE6D09700BBD271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512403611BE6D09600BBD271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512403701BE6D09700BBD271 /* ViewController.m in Sources */,
+				5124036D1BE6D09700BBD271 /* AppDelegate.m in Sources */,
+				5124036A1BE6D09700BBD271 /* main.m in Sources */,
+				512403761BE6D09700BBD271 /* Aviato.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5124037D1BE6D09700BBD271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512403861BE6D09700BBD271 /* AviatoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512403881BE6D09700BBD271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512403911BE6D09700BBD271 /* AviatoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512403831BE6D09700BBD271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512403641BE6D09600BBD271 /* Aviato */;
+			targetProxy = 512403821BE6D09700BBD271 /* PBXContainerItemProxy */;
+		};
+		5124038E1BE6D09700BBD271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512403641BE6D09600BBD271 /* Aviato */;
+			targetProxy = 5124038D1BE6D09700BBD271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512403711BE6D09700BBD271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512403721BE6D09700BBD271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512403791BE6D09700BBD271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5124037A1BE6D09700BBD271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512403931BE6D09700BBD271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512403941BE6D09700BBD271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512403961BE6D09700BBD271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aviato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.Aviato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		512403971BE6D09700BBD271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aviato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.Aviato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		512403991BE6D09700BBD271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AviatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.AviatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviato.app/Aviato";
+			};
+			name = Debug;
+		};
+		5124039A1BE6D09700BBD271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AviatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.AviatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviato.app/Aviato";
+			};
+			name = Release;
+		};
+		5124039C1BE6D09700BBD271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AviatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.AviatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aviato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5124039D1BE6D09700BBD271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AviatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamorosky.AviatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aviato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512403601BE6D09600BBD271 /* Build configuration list for PBXProject "Aviato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512403931BE6D09700BBD271 /* Debug */,
+				512403941BE6D09700BBD271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512403951BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "Aviato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512403961BE6D09700BBD271 /* Debug */,
+				512403971BE6D09700BBD271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		512403981BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "AviatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512403991BE6D09700BBD271 /* Debug */,
+				5124039A1BE6D09700BBD271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5124039B1BE6D09700BBD271 /* Build configuration list for PBXNativeTarget "AviatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5124039C1BE6D09700BBD271 /* Debug */,
+				5124039D1BE6D09700BBD271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		512403741BE6D09700BBD271 /* Aviato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				512403751BE6D09700BBD271 /* Aviato.xcdatamodel */,
+			);
+			currentVersion = 512403751BE6D09700BBD271 /* Aviato.xcdatamodel */;
+			path = Aviato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5124035D1BE6D09600BBD271 /* Project object */;
+}
