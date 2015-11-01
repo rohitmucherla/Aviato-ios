@@ -241,7 +241,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feed.png" translatesAutoresizingMaskIntoConstraints="NO" id="7jQ-Cd-rMh">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feedIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7jQ-Cd-rMh">
                                             <rect key="frame" x="17" y="4" width="35" height="35"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Event Feed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVl-P3-Clh">
@@ -263,7 +263,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="liked.png" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-ND-biK">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="likedIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-ND-biK">
                                             <rect key="frame" x="17" y="4" width="35" height="35"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Liked Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Aa-0w-Bni">
@@ -291,7 +291,7 @@
                                             <color key="textColor" red="0.17026378219999999" green="0.17288985079999999" blue="0.42497238009999999" alpha="0.75" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="groups.png" translatesAutoresizingMaskIntoConstraints="NO" id="kzu-Oc-u0w">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="groupsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="kzu-Oc-u0w">
                                             <rect key="frame" x="17" y="4" width="35" height="35"/>
                                         </imageView>
                                     </subviews>
@@ -313,7 +313,7 @@
                                             <color key="textColor" red="0.17026378219999999" green="0.17288985079999999" blue="0.42497238009999999" alpha="0.75" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="friends.png" translatesAutoresizingMaskIntoConstraints="NO" id="HFR-XF-b3i">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="friendsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="HFR-XF-b3i">
                                             <rect key="frame" x="17" y="4" width="35" height="35"/>
                                         </imageView>
                                     </subviews>
@@ -335,7 +335,7 @@
                                             <color key="textColor" red="0.17026378219999999" green="0.17288985079999999" blue="0.42497238009999999" alpha="0.75" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="2vR-AQ-8Ck">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settingsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="2vR-AQ-8Ck">
                                             <rect key="frame" x="17" y="4" width="35" height="35"/>
                                         </imageView>
                                     </subviews>
@@ -397,14 +397,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="feed.png" width="128" height="128"/>
-        <image name="friends.png" width="128" height="128"/>
-        <image name="groups.png" width="128" height="128"/>
-        <image name="liked.png" width="128" height="128"/>
+        <image name="feedIcon.png" width="128" height="128"/>
+        <image name="friendsIcon.png" width="128" height="128"/>
+        <image name="groupsIcon.png" width="128" height="128"/>
+        <image name="likedIcon.png" width="128" height="128"/>
         <image name="menu.png" width="24" height="24"/>
         <image name="new.png" width="20" height="20"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="settings.png" width="128" height="128"/>
+        <image name="settingsIcon.png" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="972-St-V9b"/>
